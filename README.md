@@ -22,6 +22,7 @@ Each Iteration
 6. Update the boundary conditions (using the old neighbouring values <- store somewhere)
 7. Calculate the new P and speed of sound (try to do in same loop as the property update to speed up)
 
-Break when the count reaches lim or R(rho) -> 0 //
+Break when the count reaches lim or R(rho) -> 0
+
 9. Calculate Mach number 
 10. Export P, M, R(rho) to a file for graphing in Python
