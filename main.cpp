@@ -488,6 +488,7 @@ void iteration(InputParameters& input) // function or class? seems identical to 
     data.write(classification);
 }
 
+// insertion point for the code: starts here
 int main() {
 
     // Clearing iteration list: (not needed, makes it easier on the Python end)
